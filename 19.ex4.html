@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .card{
+           width: 200px;
+           height: 250px; 
+           background-color:lightcoral;
+           border-radius: 20px;
+           text-align: center;
+           /* padding: 10px 0 0 0; */
+           overflow: hidden;
+        }
+
+        .background{
+            width: 200px;
+            height: 100px;
+            background:url("./CSS.selection/images/flowers.jpg");
+            background-size: cover;
+            position: relative;
+            /* bottom:10px; */
+            
+            
+            
+        }
+        .figure{
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 0 auto;
+            position: absolute;
+            top:50px;
+            left:50px;
+            /* top:50px,left:calc(50%-50px) */
+    
+        }
+        .figure img{
+            width:100%;
+        }
+        h3{
+            width: 50%;
+            border-bottom: 1px solid #ccc;
+            margin: 0 auto;
+            padding:45px 25px 10px 25px ;
+        }
+        
+        p{
+            margin: 10px;
+        }
+        .button{
+            display: block;
+            background:linear-gradient(rgb(235, 188, 215), rgb(202, 14, 117));
+            margin: 15px;
+            padding: 1px;
+            border-radius: 5px;
+
+        }
+        
+        .button:hover{
+            background: rgb(121, 7, 71);
+        }
+        a{
+            color: palegoldenrod;
+        }
+           
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="background"></div>
+        <div class="figure">
+           <img src="./CSS.selection/images/ex1_pic1.jpg" alt="">
+
+       </div>
+        <div class="box">
+          <h3>Jean</h3>
+          <p>Hello,nice to meet you.</p>
+          <a role="button" class="button">Follow me</a>
+    </div>
+<!--未完成 -->
+    
+   </div> 
+</body>
+</html>
